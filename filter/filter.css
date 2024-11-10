@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', 'sans-serif';
+}
+.container{
+    display: flex;
+    padding: 20px;
+}
+.leftMenu{
+    flex: 1;
+}
+.search{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid gray;
+}
+h1{
+    font-size: 30px;
+    font-weight: 300;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.category span{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+}
+.content{
+    flex: 4;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.product{
+    border: 1px solid black;
+    box-shadow: 0.5px 0.5px 1px black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+}
